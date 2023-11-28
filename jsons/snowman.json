@@ -1,0 +1,97 @@
+{
+    "command_name": "<grounding> Describe this image in detail:",
+    "image_description:": "Describe this image in detail: The image features a snowman sitting by a campfire in the snow. He is wearing a hat, scarf, and gloves, with a pot nearby and a cup nearby. The snowman appears to be enjoying the warmth of the fire, and it appears to have a warm and cozy atmosphere.",
+    "unclean_description": "<grounding> Describe this image in detail: The image features a snowman sitting by<phrase> a campfire</phrase><object><patch_index_0005><patch_index_1007></object> in the snow. He is wearing<phrase> a hat</phrase><object><patch_index_0048><patch_index_0250></object>,<phrase> scarf</phrase><object><patch_index_0240><patch_index_0604></object>, and<phrase> gloves</phrase><object><patch_index_0400><patch_index_0532></object>, with<phrase> a pot</phrase><object><patch_index_0610><patch_index_0872></object> nearby and<phrase> a cup</phrase><object><patch_index_0796><patch_index_1023></object> nearby. The snowman appears to be enjoying the warmth of the fire, and it appears to have a warm and cozy atmosphere.",
+    "bounding_boxs": [
+        {
+            "name": "a campfire",
+            "range": [
+                71,
+                81
+            ],
+            "coordinates": [
+                [
+                    0.171875,
+                    0.015625,
+                    0.484375,
+                    0.984375
+                ]
+            ]
+        },
+        {
+            "name": "a hat",
+            "range": [
+                109,
+                114
+            ],
+            "coordinates": [
+                [
+                    0.515625,
+                    0.046875,
+                    0.828125,
+                    0.234375
+                ]
+            ]
+        },
+        {
+            "name": "scarf",
+            "range": [
+                116,
+                121
+            ],
+            "coordinates": [
+                [
+                    0.515625,
+                    0.234375,
+                    0.890625,
+                    0.578125
+                ]
+            ]
+        },
+        {
+            "name": "gloves",
+            "range": [
+                127,
+                133
+            ],
+            "coordinates": [
+                [
+                    0.515625,
+                    0.390625,
+                    0.640625,
+                    0.515625
+                ]
+            ]
+        },
+        {
+            "name": "a pot",
+            "range": [
+                140,
+                145
+            ],
+            "coordinates": [
+                [
+                    0.078125,
+                    0.609375,
+                    0.265625,
+                    0.859375
+                ]
+            ]
+        },
+        {
+            "name": "a cup",
+            "range": [
+                157,
+                162
+            ],
+            "coordinates": [
+                [
+                    0.890625,
+                    0.765625,
+                    0.984375,
+                    0.984375
+                ]
+            ]
+        }
+    ]
+}
